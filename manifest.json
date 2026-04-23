@@ -1,25 +1,23 @@
 {
   "name": "Event Funnel with Drop-off",
   "organization": "Mornhouse",
-  "description": "Funnel chart showing drop-off % and delta vs previous period",
-  "logoUrl": "https://volodymyrshkil-tech.github.io/looker-viz/manifest.json",
+  "description": "Funnel chart showing drop-off %, absolute loss and delta vs previous period",
   "organizationUrl": "https://github.com/volodymyrshkil-tech",
   "supportUrl": "https://github.com/volodymyrshkil-tech",
   "privacyPolicyUrl": "https://github.com/volodymyrshkil-tech",
   "termsOfServiceUrl": "https://github.com/volodymyrshkil-tech",
+  "logoUrl": "https://volodymyrshkil-tech.github.io/looker-viz/funnel_icon_48.png",
   "packageUrl": "https://volodymyrshkil-tech.github.io/looker-viz",
   "devMode": true,
-  "components": [
-    {
-      "id": "funnel",
-      "name": "Event Funnel",
-      "description": "Funnel with drop-off and period delta",
-      "iconUrl": "https://volodymyrshkil-tech.github.io/looker-viz/manifest.json",
-      "resource": {
-        "js": "https://volodymyrshkil-tech.github.io/looker-viz/index.js",
-        "css": "https://volodymyrshkil-tech.github.io/looker-viz/index.css",
-        "config": "https://volodymyrshkil-tech.github.io/looker-viz/index.json"
-      }
+  "components": [{
+    "id": "funnel",
+    "name": "Event Funnel",
+    "description": "Funnel with drop-off and period delta",
+    "iconUrl": "https://volodymyrshkil-tech.github.io/looker-viz/funnel_icon_48.png",
+    "resource": {
+      "js": "https://volodymyrshkil-tech.github.io/looker-viz/index.js",
+      "css": "https://volodymyrshkil-tech.github.io/looker-viz/index.css",
+      "config": "https://volodymyrshkil-tech.github.io/looker-viz/index.json"
     }
-  ]
+  }]
 }
