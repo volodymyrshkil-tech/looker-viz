@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Funnel data",
+      "elements": [
+        {
+          "id": "dimension",
+          "label": "Event name",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "metric",
+          "label": "Users / Events",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "period",
+          "label": "Period (current / previous)",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "barColor",
+      "label": "Bar color",
+      "elements": [
+        {
+          "id": "barColor",
+          "label": "Main bar color",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#378ADD"
+          }
+        }
+      ]
+    },
+    {
+      "id": "showDelta",
+      "label": "Show period delta",
+      "elements": [
+        {
+          "id": "showDelta",
+          "label": "Show delta vs previous period",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        }
+      ]
+    }
+  ]
+}
